@@ -35,7 +35,7 @@ public class DLL {
             temp = temp.next;
         }
         System.out.println("End");
-        System.out.println("Reversed");
+        System.out.println("Reversed List is: ");
         while (last != null){
             System.out.print(last.val + " -> ");
             last = last.prev;
